@@ -2,10 +2,7 @@ def primera_letra(palabra):
     return palabra[0]
 
 def concatena_letras(lista):
-    concat = ' '
-    for i in range(len(lista)):
-        concat = concat + lista[i]
-    return concat
+    return ''.join(lista)
 
 lista = ['casa', 'auto', 'pelo', 'broche', 'juguete', 'mate']
 
